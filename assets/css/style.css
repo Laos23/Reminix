@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+
 /* Estilos del encabezado */
 .encabezado {
     display: flex;
@@ -40,15 +41,7 @@
     cursor: pointer;
 }
 
-/* Banner */
-.banner {
-    width: 100%;
-}
 
-.banner img {
-    width: 100%;
-    height: auto;
-}
 
 /* RESPONSIVE DESIGN */
 @media (max-width: 768px) {
@@ -58,7 +51,7 @@
         position: absolute;
         top: 60px;
         right: 0;
-        background-color: #222;
+        background-color: rgba(255, 255, 0);
         width: 200px;
         padding: 10px;
     }
@@ -78,3 +71,16 @@
         display: flex;
     }
 }
+
+/* Banner */
+.banner {
+    width: 100%;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+

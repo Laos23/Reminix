@@ -3,10 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Responsive</title>
+    <title>Reminix</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/js/script.js">
 </head>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const menuIcon = document.querySelector(".menu-icon");
+        const menu = document.querySelector(".menu");
+    
+        menuIcon.addEventListener("click", function () {
+            menu.classList.toggle("active");
+        });
+    });
+    </script>
+    
 <body>
 
     <header class="encabezado">
@@ -21,8 +33,9 @@
     </header>
 
     <div class="banner">
-        <img src="assets/img/Web.png" alt="Banner">
+        <img src="assets/img/banner.png" alt="Banner">
     </div>
+
 
 </body>
 </html>
