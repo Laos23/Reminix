@@ -1,41 +1,677 @@
+
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reminix</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/js/script.js">
-</head>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Foodee &mdash; 100% Free Fully Responsive HTML5 Template by FREEHTML5.co</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
+	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
+	<meta name="author" content="FREEHTML5.CO" />
 
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        const menuIcon = document.querySelector(".menu-icon");
-        const menu = document.querySelector(".menu");
-    
-        menuIcon.addEventListener("click", function () {
-            menu.classList.toggle("active");
-        });
-    });
-    </script>
-    
-<body>
+  <!-- 
+	//////////////////////////////////////////////////////
 
-    <header class="encabezado">
-        <img src="assets/img/Reminix.png" alt="Logo">
-        <nav class="menu">
-            <a href="#"><h3>diseñadores</h3></a>
-            <a href="#"><h3>personalización</h3></a>
-            <a href="#"><h3>plantillas</h3></a>
-            <a href="#"><h3>contacto</h3></a>
-        </nav>
-        <div class="menu-icon">&#9776;</div> <!-- Menú para móviles -->
-    </header>
+	FREE HTML5 TEMPLATE 
+	DESIGNED & DEVELOPED by FREEHTML5.CO
+		
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 		https://www.facebook.com/fh5co
 
-    <div class="banner">
-        <img src="assets/img/banner.png" alt="Banner">
-    </div>
+	//////////////////////////////////////////////////////
+	 -->
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic,700italic|Merriweather:300,400italic,300italic,400,700italic' rel='stylesheet' type='text/css'>
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Simple Line Icons -->
+	<link rel="stylesheet" href="css/simple-line-icons.css">
+	<!-- Datetimepicker -->
+	<link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css">
+	<!-- Flexslider -->
+	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<link rel="stylesheet" href="css/style.css">
 
 
-</body>
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+
+	<div id="fh5co-container">
+		<div id="fh5co-home" class="js-fullheight" data-section="home">
+
+			<div class="flexslider">
+				
+				<div class="fh5co-overlay"></div>
+				<div class="fh5co-text">
+					<div class="container">
+						<div class="row">
+							<h1 class="to-animate">Reminix</h1>
+							<h2 class="to-animate">Porque los recuerdos no se borran</h2>
+							<h2 class="to-animate">se imprimen.</h2>
+						</div>
+					</div>
+				</div>
+			  	<ul class="slides">
+			   	<li style="background-image: url(images/slide_1.jpg);" data-stellar-background-ratio="0.5"></li>
+			   	<li style="background-image: url(images/slide_2.jpg);" data-stellar-background-ratio="0.5"></li>
+			   	<li style="background-image: url(images/slide_3.jpg);" data-stellar-background-ratio="0.5"></li>
+			  	</ul>
+
+			</div>
+			
+		</div>
+		
+		<div class="js-sticky">
+			<div class="fh5co-main-nav">
+				<div class="container-fluid">
+					<div class="fh5co-menu-1">
+						<a href="#" data-nav-section="home">Inicio</a>
+						<a href="#" data-nav-section="about">Nosotros</a>
+						<a href="#" data-nav-section="features">Revistas</a>
+					</div>
+					<div class="fh5co-logo">
+						<a href="index.html">Reminix</a>
+					</div>
+					<div class="fh5co-menu-2">
+						<a href="#" data-nav-section="menu">Servicios</a>
+						<a href="#" data-nav-section="events">Eventos</a>
+						<a href="#" data-nav-section="reservation">Contacto</a>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+
+		<div id="fh5co-about" data-section="about">
+			<div class="fh5co-2col fh5co-bg to-animate-2" style="background-image: url(images/banner.png)"></div>
+			<div class="fh5co-2col fh5co-text">
+				<h2 class="heading to-animate">Nuestra historia</h2>
+				<p class="to-animate"><span class="firstcharacter">N</span>uestra empresa se especializa en la creación de revistas únicas y atractivas, diseñadas con creatividad y precisión. Nos enfocamos en plasmar historias, marcas y proyectos a través de un diseño editorial innovador. Desde ediciones corporativas hasta revistas personalizadas, ofrecemos soluciones visuales que impactan y comunican.</p>
+				<p class="text-center to-animate"><a href="#" class="btn btn-primary btn-outline">Contáctanos</a></p>
+			</div>
+		</div>
+
+		<div id="fh5co-sayings">
+			<div class="container">
+				<div class="row to-animate">
+
+					<div class="flexslider">
+						<ul class="slides">
+							
+							<li>
+								<blockquote>
+									<p>&ldquo;Crear recuerdos es un arte, pero todo arte requiere conocer las técnicas y herramientas adecuadas.&rdquo;</p>
+									<p class="quote-author">&mdash; Nathan Myhrvold</p>
+								</blockquote>
+							</li>
+							<li>
+								<blockquote>
+									<p>&ldquo;Regálale a alguien una foto y recordará un momento; regálale una revista personalizada y revivirá su historia una y otra vez.&rdquo;</p>
+									<p class="quote-author">&mdash; Lev L. Spiro</p>
+								</blockquote>
+							</li>
+							<li>
+								<blockquote>
+									<p>&ldquo;Encuentra aquello que te apasiona y mantén siempre vivo tu interés en ello.&rdquo;</p>
+									<p class="quote-author">&mdash; Julia Child</p>
+								</blockquote>
+							</li>
+							<li>
+								<blockquote>
+									<p>&ldquo;Nunca dejes para después el compartir un recuerdo; si tienes algo especial que contar, guárdalo en nuestra revista primero.&rdquo;</p>
+									<p class="quote-author">&mdash; Josh Billings</p>
+								</blockquote>
+							</li>
+							
+							
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div id="fh5co-featured" data-section="features">
+			<div class="container">
+				<div class="row text-center fh5co-heading row-padded">
+					<div class="col-md-8 col-md-offset-2">
+						<h2 class="heading to-animate">Revistas Destacadas</h2>
+						<p class="sub-heading to-animate">Explora nuestras revistas más destacadas, diseñadas para capturar tus mejores recuerdos y contar historias únicas.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="fh5co-grid">
+						<div class="fh5co-v-half to-animate-2">
+							<div class="fh5co-v-col-2 fh5co-bg-img" style="background-image: url(images/res_img_1.jpg)"></div>
+							<div class="fh5co-v-col-2 fh5co-text fh5co-special-1 arrow-left">
+								<h2>Edición Especial: Momentos Inolvidables</h2>
+								<span class="pricing">Revista premium</span>
+								<p>Una revista única que captura los momentos más especiales con un diseño sofisticado.</p>
+							</div>
+						</div>
+						<div class="fh5co-v-half">
+							<div class="fh5co-h-row-2 to-animate-2">
+								<div class="fh5co-v-col-2 fh5co-bg-img" style="background-image: url(images/res_img_2.jpg)"></div>
+								<div class="fh5co-v-col-2 fh5co-text arrow-left">
+									<h2>Diseño Minimalista: Elegancia y Estilo</h2>
+									<span class="pricing">Formato moderno</span>
+									<p>Perfecto para quienes buscan un diseño limpio y profesional en su publicación.</p>
+								</div>
+							</div>
+							<div class="fh5co-h-row-2 fh5co-reversed to-animate-2">
+								<div class="fh5co-v-col-2 fh5co-bg-img" style="background-image: url(images/res_img_8.jpg)"></div>
+								<div class="fh5co-v-col-2 fh5co-text arrow-right">
+									<h2>Portadas Personalizadas: Dale Vida a Tu Historia</h2>
+									<span class="pricing">Diseño exclusivo</span>
+									<p>Crea una portada impactante que refleje la esencia de tu contenido.</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="fh5co-v-half">
+							<div class="fh5co-h-row-2 fh5co-reversed to-animate-2">
+								<div class="fh5co-v-col-2 fh5co-bg-img" style="background-image: url(images/res_img_7.jpg)"></div>
+								<div class="fh5co-v-col-2 fh5co-text arrow-right">
+									<h2>Revistas Corporativas: Potencia tu Marca</h2>
+									<span class="pricing">Imagen profesional</span>
+									<p>Ideal para empresas que buscan comunicar con impacto y profesionalismo.</p>
+								</div>
+							</div>
+							<div class="fh5co-h-row-2 to-animate-2">
+								<div class="fh5co-v-col-2 fh5co-bg-img" style="background-image: url(images/res_img_6.jpg)"></div>
+								<div class="fh5co-v-col-2 fh5co-text arrow-left">
+									<h2>Catálogos Visuales: Presentación Impactante</h2>
+									<span class="pricing">Muestra atractiva</span>
+									<p>Una manera efectiva de mostrar tus productos o servicios con estilo.</p>
+								</div>
+							</div>
+						</div>
+						<div class="fh5co-v-half to-animate-2">
+							<div class="fh5co-v-col-2 fh5co-bg-img" style="background-image: url(images/res_img_3.jpg)"></div>
+							<div class="fh5co-v-col-2 fh5co-text fh5co-special-1 arrow-left">
+								<h2>Publicaciones Creativas: Expresa tu Visión</h2>
+								<span class="pricing">Diseño innovador</span>
+								<p>Transforma tu idea en una revista llamativa y profesionalmente diseñada.</p>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div id="fh5co-type" style="background-image: url(images/slide_3.jpg);" data-stellar-background-ratio="0.5">
+			<div class="fh5co-overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 to-animate">
+						<div class="fh5co-type">
+							<h3 class="with-icon icon-1">Diseño Creativo</h3>
+							<p>Transformamos ideas en diseños impactantes que capturan la esencia de cada historia y marca.</p>
+						</div>
+					</div>
+					<div class="col-md-3 to-animate">
+						<div class="fh5co-type">
+							<h3 class="with-icon icon-2">Maquetación Profesional</h3>
+							<p>Optimizamos la distribución de contenido con estructuras visualmente atractivas y funcionales.</p>
+						</div>
+					</div>
+					<div class="col-md-3 to-animate">
+						<div class="fh5co-type">
+							<h3 class="with-icon icon-3">Impresión de Alta Calidad</h3>
+							<p>Utilizamos materiales y técnicas de impresión que garantizan un acabado premium en cada revista.</p>
+						</div>
+					</div>
+					<div class="col-md-3 to-animate">
+						<div class="fh5co-type">
+							<h3 class="with-icon icon-4">Ediciones Digitales</h3>
+							<p>Ofrecemos versiones interactivas y adaptadas a plataformas digitales para ampliar el alcance.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="fh5co-menus" data-section="menu">
+			<div class="container">
+				<div class="row text-center fh5co-heading row-padded">
+					<div class="col-md-8 col-md-offset-2">
+						<h2 class="heading to-animate">Nuestros Servicios para Familias</h2>
+						<p class="sub-heading to-animate">Cuidamos cada detalle para brindarte experiencias únicas y momentos inolvidables en familia.</p>
+					</div>
+				</div>
+				<div class="row row-padded">
+					<div class="col-md-6">
+						<div class="fh5co-food-menu to-animate-2">
+							<h2 class="fh5co-drinks">Fotografía Familiar</h2>
+							<ul>
+								<li>
+									<div class="fh5co-food-desc">
+										<figure>
+											<img src="images/res_img_5.jpg" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
+										</figure>
+										<div>
+											<h3>Sesión de Fotos en Exteriores</h3>
+											<p>Capturamos momentos inolvidables.</p>
+										</div>
+									</div>
+									<div class="fh5co-food-pricing">
+										
+									</div>
+								</li>
+								<li>
+									<div class="fh5co-food-desc">
+										<figure>
+											<img src="images/res_img_6.jpg" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
+										</figure>
+										<div>
+											<h3>Sesión de Fotos en Estudio</h3>
+											<p>Un espacio íntimo y especial.</p>
+										</div>
+									</div>
+									<div class="fh5co-food-pricing">
+									</div>
+								</li>
+								<li>
+									<div class="fh5co-food-desc">
+										<figure>
+											<img src="images/res_img_7.jpg" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
+										</figure>
+										<div>
+											<h3>Cobertura de Cumpleaños</h3>
+											<p>Guarda cada sonrisa de tu niño.</p>
+										</div>
+									</div>
+									<div class="fh5co-food-pricing">
+									</div>
+								</li>
+								<li>
+									<div class="fh5co-food-desc">
+										<figure>
+											<img src="images/res_img_5.jpg" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
+										</figure>
+										<div>
+											<h3>Fiestas Infantiles</h3>
+											<p>Diversión y recuerdos mágicos.</p>
+										</div>
+									</div>
+									<div class="fh5co-food-pricing">
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="fh5co-food-menu to-animate-2">
+							<h2 class="fh5co-dishes">Sesiones de Fotos en el Hogar</h2>
+							<ul>
+								<li>
+									<div class="fh5co-food-desc">
+										<figure>
+											<img src="images/res_img_3.jpg" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
+										</figure>
+										<div>
+											<h3>Fotos en Familia</h3>
+											<p>Momentos únicos en tu hogar.</p>
+										</div>
+									</div>
+									<div class="fh5co-food-pricing">
+									</div>
+								</li>
+								<li>
+									<div class="fh5co-food-desc">
+										<figure>
+											<img src="images/res_img_4.jpg" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
+										</figure>
+										<div>
+											<h3>Recién Nacidos</h3>
+											<p>Ternura en cada imagen.</p>
+										</div>
+									</div>
+									<div class="fh5co-food-pricing">
+									</div>
+								</li>
+								<li>
+									<div class="fh5co-food-desc">
+										<figure>
+											<img src="images/res_img_2.jpg" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
+										</figure>
+										<div>
+											<h3>Mascotas y Niños</h3>
+											<p></p>
+										</div>
+									</div>
+									<div class="fh5co-food-pricing">
+									</div>
+								</li>
+								<li>
+									<div class="fh5co-food-desc">
+										<figure>
+											<img src="images/res_img_8.jpg" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
+										</figure>
+										<div>
+											<h3>Fechas Especiales</h3>
+											<p>Recuerdos de días inolvidables.</p>
+										</div>
+									</div>
+									<div class="fh5co-food-pricing">
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="fh5co-food-menu to-animate-2">
+							<h2 class="fh5co-drinks">Álbumes y Fotolibros</h2>
+							<ul>
+								<li>
+									<div class="fh5co-food-desc">
+										<figure>
+											<img src="images/res_img_5.jpg" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
+										</figure>
+										<div>
+											<h3>Álbum de Bebés</h3>
+											<p>Sus primeros momentos en papel.</p>
+										</div>
+									</div>
+									<div class="fh5co-food-pricing">
+									</div>
+								</li>
+								<li>
+									<div class="fh5co-food-desc">
+										<figure>
+											<img src="images/res_img_6.jpg" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
+										</figure>
+										<div>
+											<h3>Álbum de Cumpleaños</h3>
+											<p>Cada año, un recuerdo nuevo.</p>
+										</div>
+									</div>
+									<div class="fh5co-food-pricing">
+									</div>
+								</li>
+								<li>
+									<div class="fh5co-food-desc">
+										<figure>
+											<img src="images/res_img_7.jpg" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
+										</figure>
+										<div>
+											<h3>Fotolibro Familiar</h3>
+											<p>Historias contadas con imágenes.</p>
+										</div>
+									</div>
+									<div class="fh5co-food-pricing">
+									</div>
+								</li>
+								<li>
+									<div class="fh5co-food-desc">
+										<figure>
+											<img src="images/res_img_5.jpg" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
+										</figure>
+										<div>
+											<h3>Impresión de Fotos</h3>
+											<p>Tus recuerdos en alta calidad.</p>
+										</div>
+									</div>
+									<div class="fh5co-food-pricing">
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="fh5co-food-menu to-animate-2">
+							<h2 class="fh5co-dishes">Videos y Edición</h2>
+							<ul>
+								<li>
+									<div class="fh5co-food-desc">
+										<figure>
+											<img src="images/res_img_3.jpg" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
+										</figure>
+										<div>
+											<h3>Videos de Cumpleaños</h3>
+											<p>Revive cada momento especial.</p>
+										</div>
+									</div>
+									<div class="fh5co-food-pricing">
+									</div>
+								</li>
+								<li>
+									<div class="fh5co-food-desc">
+										<figure>
+											<img src="images/res_img_4.jpg" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
+										</figure>
+										<div>
+											<h3>Clips Familiares</h3>
+											<p>Pequeñas historias en video.</p>
+										</div>
+									</div>
+									<div class="fh5co-food-pricing">
+									</div>
+								</li>
+								<li>
+									<div class="fh5co-food-desc">
+										<figure>
+											<img src="images/res_img_2.jpg" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
+										</figure>
+										<div>
+											<h3>Montajes Fotográficos</h3>
+											<p>Tus fotos con un toque especial.</p>
+										</div>
+									</div>
+									<div class="fh5co-food-pricing">
+									</div>
+								</li>
+								<li>
+									<div class="fh5co-food-desc">
+										<figure>
+											<img src="images/res_img_8.jpg" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
+										</figure>
+										<div>
+											<h3>Edición Profesional</h3>
+											<p>Detalles que hacen la diferencia.</p>
+										</div>
+									</div>
+									<div class="fh5co-food-pricing">
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 col-md-offset-4 text-center to-animate-2">
+						<p><a href="#" class="btn btn-primary btn-outline">Más Servicios</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="fh5co-events" data-section="events" style="background-image: url(images/slide_2.jpg);" data-stellar-background-ratio="0.5">
+			<div class="fh5co-overlay"></div>
+			<div class="container">
+				<div class="row text-center fh5co-heading row-padded">
+					<div class="col-md-8 col-md-offset-2 to-animate">
+						<h2 class="heading">Próximos Eventos</h2>
+						<p class="sub-heading">Descubre experiencias únicas diseñadas para fortalecer los lazos familiares y crear recuerdos inolvidables. Desde talleres creativos hasta sesiones fotográficas especiales, cada evento está pensado para capturar la esencia de cada familia y hacer de cada momento algo inolvidable.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="fh5co-event to-animate-2">
+							<h3>Taller de Fotografía en Familia</h3>
+							<span class="fh5co-event-meta">25 de Abril, 2026</span>
+							<p>Sumérgete en una experiencia única donde podrás aprender técnicas básicas de fotografía mientras capturas momentos inolvidables con tus seres queridos. Un ambiente relajado y natural para fortalecer lazos y crear recuerdos que perduren en el tiempo.</p>
+							<p><a href="#" class="btn btn-primary btn-outline">Leer más</a></p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="fh5co-event to-animate-2">
+							<h3>Sesión de Fotos al Aire Libre</h3>
+							<span class="fh5co-event-meta">23 de Julio, 2026</span>
+							<p>Aprovecha la luz natural y los paisajes más hermosos para una sesión de fotos profesional en familia. Capturaremos la esencia de cada uno en un entorno mágico, donde cada imagen contará una historia especial y llena de amor.</p>
+							<p><a href="#" class="btn btn-primary btn-outline">Leer más</a></p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="fh5co-event to-animate-2">
+							<h3>Crea tu Propio Álbum Familiar</h3>
+							<span class="fh5co-event-meta">9 de Septiembre, 2026</span>
+							<p>Convierte tus recuerdos en un hermoso álbum personalizado. Aprenderás a organizar tus fotos, elegir los mejores momentos y diseñar un álbum que refleje la historia de tu familia. Un recuerdo único para compartir con generaciones futuras.</p>
+							<p><a href="#" class="btn btn-primary btn-outline">Leer más</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="fh5co-contact" data-section="reservation">
+			<div class="container">
+				<div class="row text-center fh5co-heading row-padded">
+					<div class="col-md-8 col-md-offset-2">
+						<h2 class="heading to-animate">Contactanos</h2>
+						<p class="sub-heading to-animate">Estamos aquí para ayudarte a capturar momentos inolvidables con tu familia. Contáctanos para conocer más sobre nuestros servicios y reservar tu sesión especial. ¡Estamos emocionados de ser parte de tus recuerdos!</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 to-animate-2">
+						<h3>Contact Info</h3>
+						<ul class="fh5co-contact-info">
+							<li class="fh5co-contact-address ">
+								<i class="icon-home"></i> <a href="https://www.google.com/maps/place/C.+de+la+Esperanza,+5,+Centro,+28012+Madrid/@40.4102724,-3.7030505,17z/data=!3m1!4b1!4m6!3m5!1s0xd42262b00507ee5:0x7074f60ef6f79f64!8m2!3d40.4102724!4d-3.7004756!16s%2Fg%2F11c43xbnft?entry=ttu&g_ep=EgoyMDI1MDMxMS4wIKXMDSoASAFQAw%3D%3D">Calle de la Esperanza 5</a>
+								<br> Nuestras oficinas
+							</li>
+							<li><i class="icon-phone"></i> +34 782 22 53 89</li>
+							<li><i class="icon-envelope"></i>info@reminix.com</li>
+
+						</ul>
+					</div>
+					<div class="col-md-6 to-animate-2">
+						<h3>Contacto</h3>
+						<div class="form-group ">
+							<label for="name" class="sr-only">Nombre</label>
+							<input id="name" class="form-control" placeholder="Nombre" type="text">
+						</div>
+						<div class="form-group ">
+							<label for="email" class="sr-only">Email</label>
+							<input id="email" class="form-control" placeholder="Email" type="email">
+						</div>
+						<div class="form-group">
+							<label for="occation" class="sr-only">Selecciona una Ocasión</label>
+							<select class="form-control" id="occation">
+								<option>Sesión Familiar</option>
+							  <option>Reunión Especial</option>
+							  <option>Sesión de Maternidad</option>
+							  <option>Otros</option>
+							</select>
+						</div>
+						<div class="form-group ">
+							<label for="date" class="sr-only">Fecha</label>
+							<input id="date" class="form-control" placeholder="Fecha y Hora" type="text">
+						</div>
+
+
+							
+						<div class="form-group ">
+							<label for="message" class="sr-only">Mensaje
+							</label>
+							<textarea name="" id="message" cols="30" rows="5" class="form-control" placeholder="Mensaje"></textarea>
+						</div>
+						<div class="form-group ">
+							<input class="btn btn-primary" value="Enviar" type="submit">
+						</div>
+						</div>
+				</div>
+			</div>
+		</div>
+
+		
+	</div>
+
+	<div id="fh5co-footer">
+		<div class="container">
+			<div class="row row-padded">
+				<div class="col-md-12 text-center">
+					<p class="to-animate">&copy; 2026  <br> Todos los derechos reservados a <a href="#" target="_blank">reminix</a>
+					</p>
+					<p class="text-center to-animate"><a href="#" class="js-gotop">Go To Top</a></p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<ul class="fh5co-social">
+						<li class="to-animate-2"><a href="#"><i class="icon-facebook"></i></a></li>
+						<li class="to-animate-2"><a href="#"><i class="icon-twitter"></i></a></li>
+						<li class="to-animate-2"><a href="https://www.instagram.com/reminix_oficial?igsh=MW13dmU4ZnN6em05Nw=="><i class="icon-instagram"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	
+	
+	
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Bootstrap DateTimePicker -->
+	<script src="js/moment.js"></script>
+	<script src="js/bootstrap-datetimepicker.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Stellar Parallax -->
+	<script src="js/jquery.stellar.min.js"></script>
+
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<script>
+		$(function () {
+	       $('#date').datetimepicker();
+	   });
+	</script>
+	<!-- Main JS -->
+	<script src="js/main.js"></script>
+
+	</body>
 </html>
+
